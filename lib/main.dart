@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lets_route/pages/first_page.dart';
+import 'package:lets_route/pages/first_page.dart' as first;
 import 'package:lets_route/pages/home_page.dart';
 import 'package:lets_route/pages/details_page.dart'; // Import the details page
 
@@ -38,9 +38,9 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      initialRoute: '/firstpage',
+      initialRoute: '/homepage',
       routes: {
-        '/firstpage': (context) => const FirstPage(),
+        '/firstpage': (context) => const first.FirstPage(),
         '/homepage': (context) => const HomePage(),
         '/details': (context) =>
             const DetailsPage(), // Add the details page route
