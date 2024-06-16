@@ -38,8 +38,11 @@ The project contains the following files:
 - `first_page.dart`: Defines the `FirstPage` widget.
 - `home_page.dart`: Defines the `HomePage` widget.
 
-### Link to Video recording:
+### Link to Video  walk through for Product and list:
 - https://youtu.be/kDUzB6uAKU0
+
+### Link to video walk through of animation:
+- https://www.loom.com/share/f00ce8e55cb84ab08a920af0f36b3885?sid=efc5aab2-a30b-402a-bf6a-993820d4ef4d
 ### `main.dart`
 
 ```dart
